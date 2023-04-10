@@ -11,7 +11,7 @@ public class Fabula extends Escrito {
 			
 	}
 	
-	public void setEnseñanza(String enseñanza) {
+	public void setEnsenanza(String enseñanza) {
 		this.ensenanza=enseñanza;
 	}
 	
@@ -37,7 +37,11 @@ public class Fabula extends Escrito {
 	}
 	
 	public String toString() {
-		return getOrigen()+"\n"+ getTitulo()+"\n"+ getAutor()+"\n"+ getPaginas()+"\n"+ getEnsenanza();
+		return getOrigen()+"\n"+
+	getTitulo()+"\n"+
+				getAutor()+"\n"+
+	getPaginas()+"\n"+
+				getEnsenanza();
 		
 	}
 	
